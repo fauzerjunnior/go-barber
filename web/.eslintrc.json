@@ -56,6 +56,10 @@
     "react/jsx-curly-newline": "off",
     "camelcase": "off",
     "react/jsx-no-target-blank": "off",
-    "@typescript-eslint/ban-types": "off"
+    "@typescript-eslint/ban-types": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error"
+    ]
   }
 }

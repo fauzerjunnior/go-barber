@@ -1,13 +1,12 @@
 import 'reflect-metadata';
 
-// import express, { Request, Response, NextFunction } from 'express';
-import express from 'express';
+import express, { Request, Response, NextFunction } from 'express';
 import cors from 'cors';
-// import 'express-async-errors';
+import 'express-async-errors';
 
 import routes from './routes';
 import uploadConfig from './config/upload';
-// import AppError from './errors/AppError';
+import AppError from './errors/AppError';
 
 import './database';
 
@@ -18,21 +17,22 @@ app.use(express.json());
 app.use('/files', express.static(uploadConfig.directory.toString()));
 app.use(routes);
 
-// app.use((err: Error, request: Request, response: Response, _: NextFunction) = > {
-//   if (err instanceof AppError) {
-//     return response.status(err.statusCode).json({
-//       status: 'error',
-//       message: err.message
-//     });
-//   }
+app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
+  if (err instanceof AppError) {
+    return response.status(err.statusCode).json({
+      status: 'error',
+      message: err.message,
+    });
+  }
 
-//   console.error(err);
+  // eslint-disable-next-line no-console
+  console.error(err);
 
-//   return response.status(500).json({
-//     status: 'error',
-//     message: 'Internal server error'
-//   })
-// });
+  return response.status(500).json({
+    status: 'error',
+    message: 'Internal server error',
+  });
+});
 
 app.listen(3333, () => {
   // eslint-disable-next-line no-console
