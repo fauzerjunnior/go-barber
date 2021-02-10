@@ -21,7 +21,7 @@
 O projeto Gobarber é o projeto principal do Bootcamp GoStack da Rocketseat. Baseado em NodeJS + WEB em React e Mobile em React Native, o objetivo da solução desenvolvida é gerenciar toda regra de agendamentos de horários de uma barbearia.
 
 <p align="center">
-<img src="https://imgur.com/ogDhq0U.png" title="GoBarber">
+<img src="https://imgur.com/NYrcq1d.png" title="GoBarber">
 </p>
 
 # O que foi usado nos projetos
