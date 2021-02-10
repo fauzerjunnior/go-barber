@@ -3,7 +3,7 @@
 </p>
 
 <h2 align="center">
-  💈 GoBarber
+  GoBarber • 💈 💻
 </h2>
 
 <p align="center">
