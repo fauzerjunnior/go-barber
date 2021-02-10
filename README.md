@@ -7,12 +7,10 @@
 </h2>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/fauzerjunnior/go-barber?color=lightgrey&labelColor=000000">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/fauzerjunnior/go-barber?color=lightgrey&labelColor=000000">
+  <img alt="Typescript" src="https://img.shields.io/npm/types/typescript?color=lightgrey&labelColor=000000">
   
   <a href="https://github.com/fauzerjunnior/go-barber/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/repo-size/fauzerjunnior/go-barber?color=lightgrey&labelColor=000000">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/fauzerjunnior/go-barber?color=lightgrey&labelColor=000000">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-grey?color=lightgrey&labelColor=000000">
