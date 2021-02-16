@@ -11,6 +11,5 @@
   },
   "exclude": [
     "__tests__/**/*-test.ts"
-  ],
-  "include": ["./src/@types/index.d.ts"]
+  ]
 }
