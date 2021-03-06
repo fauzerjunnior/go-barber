@@ -3,7 +3,7 @@
     "target": "es5",
     "module": "commonjs",
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "./",
     "strict": true,
     "allowJs": true,
     "strictPropertyInitialization": false,
@@ -18,5 +18,11 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "./dist/**/*"
+  ]
 }

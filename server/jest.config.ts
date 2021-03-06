@@ -1,4 +1,6 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import { pathsToModuleNameMapper } from 'ts-jest/utils';
+// @ts-ignore
 import { compilerOptions } from './tsconfig.json';
 
 module.exports = {
