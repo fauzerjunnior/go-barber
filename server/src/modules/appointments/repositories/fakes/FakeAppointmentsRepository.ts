@@ -1,10 +1,10 @@
 import { v4 } from 'uuid';
 import { isEqual } from 'date-fns';
 
-import IAppointmentsRepository from '@modules/appointments/repositories/IAppointmentsRepository';
 import ICreateAppointmentDTO from '@modules/appointments/dtos/ICreateAppointmentDTO';
 
-import Appointment from '@modules/appointments/infra/typeorm/entities/Appointment';
+import Appointment from '../../infra/typeorm/entities/Appointment';
+import IAppointmentsRepository from '../IAppointmentsRepository';
 
 class AppointmentsRepository implements IAppointmentsRepository {
   private appointments: Appointment[] = [];

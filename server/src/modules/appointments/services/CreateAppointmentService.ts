@@ -3,8 +3,8 @@ import { inject, injectable } from 'tsyringe';
 
 import AppError from '@shared/errors/AppError';
 
-import Appointment from '@modules/appointments/infra/typeorm/entities/Appointment';
-import IAppointmentsRepository from '@modules/appointments/repositories/IAppointmentsRepository';
+import Appointment from '../infra/typeorm/entities/Appointment';
+import IAppointmentsRepository from '../repositories/IAppointmentsRepository';
 
 interface IRequest {
   provider_id: string;

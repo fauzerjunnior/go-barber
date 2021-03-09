@@ -1,9 +1,9 @@
 import AppError from '@shared/errors/AppError';
 
-import FakeUsersRepository from '@modules/users/repositories/fakes/FakeUserRepository';
 import FakeStorageProvider from '@shared/container/providers/StorageProvider/fakes/FakeStorageProvider';
+import FakeUsersRepository from '../repositories/fakes/FakeUserRepository';
 
-import UpdateUserAvatarService from '@modules/users/services/UpdateUserAvatarService';
+import UpdateUserAvatarService from './UpdateUserAvatarService';
 
 describe('UpdateUserAvatar', () => {
   it('should be able to update avatar', async () => {
@@ -38,7 +38,7 @@ describe('UpdateUserAvatar', () => {
       fakeStorageProvider
     );
 
-    expect(
+    await expect(
       updateUserAvatar.execute({
         user_id: 'non-exsisting-user',
         avatarFileName: 'avatar.jpg',
