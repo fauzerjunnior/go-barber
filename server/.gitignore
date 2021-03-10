@@ -3,10 +3,13 @@
 .idea
 .vscode
 
-# Node Modules
+# node_modules
 node_modules/
 build/
 temp/
 
 tmp/*
 !tmp/.gitkeep
+
+# tests
+coverage/*

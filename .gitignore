@@ -1,2 +1,15 @@
 # misc
 .DS_Store
+.idea
+.vscode
+
+# node_modules
+node_modules/
+build/
+temp/
+
+tmp/*
+!tmp/.gitkeep
+
+# tests
+coverage/*
