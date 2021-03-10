@@ -1,0 +1,13 @@
+import { Router } from 'express';
+import ensureAuthenticated from '@shared/infra/http/middlewares/ensureAuthenticated';
+
+import ProfileController from '../controllers/ProfileController';
+
+const profileRouter = Router();
+const profileController = new ProfileController();
+
+profileRouter.use(ensureAuthenticated);
+
+profileRouter.put('/', profileController.update);
+
+export default profileRouter;
