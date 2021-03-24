@@ -19,6 +19,7 @@ providersRouter.get(
   '/:provider_id/day-availability',
   providersDayAvailabilityController.index
 );
+
 providersRouter.get(
   '/:provider_id/month-availability',
   providersMonthAvailabilityController.index
