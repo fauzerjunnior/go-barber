@@ -13,3 +13,5 @@ tmp/*
 
 # tests
 **/coverage/*
+.env
+ormconfig.json
