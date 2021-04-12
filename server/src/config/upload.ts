@@ -44,7 +44,7 @@ export default {
   config: {
     disk: {},
     aws: {
-      bucket: 'fauzerjunnior-aws-gobarber',
+      bucket: 'fauzerjunnior-app-gobarber',
     },
   },
 } as IUploadConfig;
