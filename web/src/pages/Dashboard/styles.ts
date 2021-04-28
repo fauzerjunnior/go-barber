@@ -40,6 +40,7 @@ export const Profile = styled.div`
     width: 56px;
     height: 56px;
     border-radius: 50%;
+    object-fit: cover;
   }
 
   div {
@@ -77,7 +78,7 @@ export const Schedule = styled.div`
     color: #ff9000;
     display: flex;
     align-items: center;
-    font-weight: 500;
+    font-weight: 600;
 
     span {
       display: flex;
@@ -159,6 +160,10 @@ export const Section = styled.div`
     padding-bottom: 16px;
     margin: 16px 0;
   }
+
+  p {
+    color: #999591;
+  }
 `;
 
 export const Appointment = styled.div`
@@ -174,6 +179,7 @@ export const Appointment = styled.div`
     display: flex;
     align-items: center;
     color: #f4ed38;
+    width: 70px;
 
     svg {
       color: #ff9000;
