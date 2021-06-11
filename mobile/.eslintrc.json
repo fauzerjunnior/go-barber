@@ -53,6 +53,7 @@
     "react/jsx-props-no-spreading": "off",
     "no-use-before-define": "off",
     "import/extensions": "off",
+    "import/no-duplicates": "off",
     "jsx-a11y/anchor-is-valid": "off",
     "react/destructuring-assignment": "off",
     "jsx-a11y/label-has-associated-control": "off",
