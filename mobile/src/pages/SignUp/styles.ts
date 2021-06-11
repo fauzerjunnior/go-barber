@@ -19,7 +19,7 @@ export const Title = styled.Text`
 export const BackToSignIn = styled.TouchableOpacity`
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 1px;
   right: 0;
   background: #312e38;
 
