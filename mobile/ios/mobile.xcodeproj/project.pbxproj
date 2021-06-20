@@ -745,7 +745,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.react.native.gobarber;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fauzerdev.gobarber;
 				PRODUCT_NAME = mobile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -768,7 +768,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.react.native.gobarber;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fauzerdev.gobarber;
 				PRODUCT_NAME = mobile;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";

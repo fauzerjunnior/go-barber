@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>mobile</string>
+	<string>GoBarber</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -37,10 +37,10 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSLocationWhenInUseUsageDescription</key>
-  <key>NSPhotoLibraryUsageDescription</key>
-  <key>NSCameraUsageDescription</key>
+	<key>NSCameraUsageDescription</key>
 	<string></string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>NSPhotoLibraryUsageDescription</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>RobotoSlab-Medium.ttf</string>
@@ -53,11 +53,11 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDarkContent</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
